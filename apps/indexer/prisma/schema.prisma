@@ -1,0 +1,49 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ProtocolEvent {
+  id          String   @id @default(cuid())
+  signature   String
+  eventName   String
+  obligation  String
+  reserve     String
+  amount      BigInt
+  slot        BigInt
+  payload     Json
+  createdAt   DateTime @default(now())
+
+  @@index([obligation])
+  @@index([eventName, createdAt])
+}
+
+model ObligationPosition {
+  obligationAddress   String   @id
+  owner               String
+  collateralReserve   String
+  borrowReserve       String
+  depositedCollateral BigInt
+  borrowedAmountWad   String
+  healthFactorBps     Int
+  updatedAtSlot       BigInt
+  updatedAt           DateTime @updatedAt
+
+  @@index([healthFactorBps])
+  @@index([owner])
+}
+
+model MarketMetricSnapshot {
+  id                  String   @id @default(cuid())
+  totalDepositsUsd    Float
+  totalBorrowsUsd     Float
+  utilizationRateBps  Int
+  liquidationsCount24h Int
+  recordedAt          DateTime @default(now())
+
+  @@index([recordedAt])
+}

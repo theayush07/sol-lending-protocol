@@ -1,0 +1,45 @@
+Streaming transaction logs mentioning BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9. Confirmed commitment
+Transaction executed in slot 94:
+  Signature: BtrT8STgDA7JfibEi3ezTpsAXBy57wySuWM9cdnprTvmVHDcV3rfixXvch2AfSihk8EvzTndpjSbfu9BwVtsNmV
+  Status: Ok
+  Log Messages:
+    Program 11111111111111111111111111111111 invoke [1]
+    Program 11111111111111111111111111111111 success
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 invoke [1]
+    Program log: Initialized oracle feed: price=100000000
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 consumed 1889 of 399850 compute units
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 success
+Transaction executed in slot 94:
+  Signature: 4UwxM1L9vQb9ZPNs8WPL6a8wnGCG7pijTnbYhJ8jo7sRtikx4kWpKLUZL9SN5UfPCC7Wuqcpq3EGFaow3F89KTKR
+  Status: Ok
+  Log Messages:
+    Program 11111111111111111111111111111111 invoke [1]
+    Program 11111111111111111111111111111111 success
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 invoke [1]
+    Program log: Initialized oracle feed: price=1000000
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 consumed 1915 of 399850 compute units
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 success
+Transaction executed in slot 95:
+  Signature: 4UwxM1L9vQb9ZPNs8WPL6a8wnGCG7pijTnbYhJ8jo7sRtikx4kWpKLUZL9SN5UfPCC7Wuqcpq3EGFaow3F89KTKR
+  Status: Ok
+  Log Messages:
+    Program 11111111111111111111111111111111 invoke [1]
+    Program 11111111111111111111111111111111 success
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 invoke [1]
+    Program log: Initialized oracle feed: price=1000000
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 consumed 1915 of 399850 compute units
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 success
+Transaction executed in slot 105:
+  Signature: 4jVeLv2JPbj1K7SzdnYDeC7WyoceCF2ypRuqZVhT76PDkgJ9o4XbkusCLFCuybMJjLGDFRLs5JrrecRPRd1bvN8G
+  Status: Ok
+  Log Messages:
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 invoke [1]
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 consumed 1973 of 200000 compute units
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 success
+Transaction executed in slot 106:
+  Signature: 4jVeLv2JPbj1K7SzdnYDeC7WyoceCF2ypRuqZVhT76PDkgJ9o4XbkusCLFCuybMJjLGDFRLs5JrrecRPRd1bvN8G
+  Status: Ok
+  Log Messages:
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 invoke [1]
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 consumed 1973 of 200000 compute units
+    Program BSKYQxSA7STmDxYGqasHmb3Yqa5a6DeSGHtfs1oK58r9 success
