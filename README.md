@@ -325,8 +325,5 @@ For changes involving lending rules, risk calculations, or liquidations, include
 
 ## License
 
-A license has not yet been specified. Add a `LICENSE` file and update this section before publishing the project for reuse or accepting contributions under a particular license.
-
----
-
-SolLend is an exploration of Solana program development, DeFi lending mechanics, event-driven backend infrastructure, and automated protocol monitoring.
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
